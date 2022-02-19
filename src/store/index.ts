@@ -7,7 +7,7 @@ export default createStore({
         }
     },
     mutations: {
-        increment(state) {
+        increment(state:any) {
             state.count++
         }
     },
